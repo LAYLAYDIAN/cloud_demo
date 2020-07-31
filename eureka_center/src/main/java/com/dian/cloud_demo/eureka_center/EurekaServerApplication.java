@@ -1,4 +1,4 @@
-package org.dian.cloud_demo.eureka_center;
+package com.dian.cloud_demo.eureka_center;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
