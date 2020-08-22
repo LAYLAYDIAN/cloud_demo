@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.dian.cloud_demo</groupId>
-    <artifactId>eureka_client_3</artifactId>
+    <artifactId>weather-report-server</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>eureka_client_3</name>
-    <description>基于urekaClient实现的客户端</description>
+    <name>weather-report-server</name>
+    <description>基于urekaClient实现的客户端-天气预报微服务</description>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -51,6 +51,12 @@
             <artifactId>spring-cloud-commons</artifactId>
             <version>2.2.3.RELEASE</version>
             <scope>compile</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-quartz</artifactId>
         </dependency>
     </dependencies>>
     <dependencyManagement>
