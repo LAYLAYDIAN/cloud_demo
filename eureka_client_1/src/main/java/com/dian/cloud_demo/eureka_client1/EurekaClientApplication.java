@@ -1,7 +1,8 @@
 package com.dian.cloud_demo.eureka_client1;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+
 
 /**
  * @Description: 启动类
@@ -10,7 +11,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @Version: 1.0
  */
 
-@EnableDiscoveryClient
+@EnableEurekaClient
 @SpringBootApplication
 public class EurekaClientApplication {
 

@@ -6,7 +6,7 @@
 
     <groupId>org.dian.cloud_demo</groupId>
     <artifactId>eureka_client_1</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-RELEASE</version>
     <name>eureka_client_1</name>
     <description>基于urekaClient实现的客户端</description>
     <parent>
@@ -52,7 +52,8 @@
             <version>2.2.3.RELEASE</version>
             <scope>compile</scope>
         </dependency>
-    </dependencies>>
+
+    </dependencies>
     <dependencyManagement>
         <dependencies>
             <dependency>
