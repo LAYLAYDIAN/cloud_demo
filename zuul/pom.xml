@@ -7,8 +7,8 @@
     <groupId>org.dian.cloud_demo</groupId>
     <artifactId>eureka_client_3</artifactId>
     <version>1.0.0-RELEASE</version>
-    <name>eureka_client_3</name>
-    <description>基于urekaClient实现的客户端</description>
+    <name>zuul</name>
+    <description>基于urekaClient实现的客户端 服务路由网关zuul</description>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -51,6 +51,15 @@
             <artifactId>spring-cloud-commons</artifactId>
             <version>2.2.3.RELEASE</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.75</version>
         </dependency>
     </dependencies>
     <dependencyManagement>
